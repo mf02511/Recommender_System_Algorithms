@@ -28,8 +28,8 @@
 
 ### SASRec Model Results
 The performance of the three SASRec models with hidden dimensions $d=32,64,128$ are shown: 
-<p alight = 'center'>
-	<img src= ./assets/SASRec_results.png>
+<p align='center'>
+	<img src= ./assets/SASRec_results.png />
 </p>
 The superior performance of the model with `hidden_units = 32` for all evaluation metrics suggests that a smaller embedding size offers a better balance between model
 complexity and generalization for the dataset. This outcome likely stems from the simplicity or sparsity of the dataset, where larger embeddings might introduce unnecessary complexity, leading to overfitting. 
