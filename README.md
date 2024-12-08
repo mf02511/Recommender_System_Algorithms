@@ -39,8 +39,7 @@ complexity and generalization for the dataset. This outcome likely stems from th
 
 ### Comparison
 <p align='center'>
-	<img src= ./assets/hr_compare.png />
-	<img src= ./assets/ndcg_compare.png />
+	<img src= ./assets/hr_compare.png width=50%/><img src= ./assets/ndcg_compare.png width=50%/>
 </p>
 
 
