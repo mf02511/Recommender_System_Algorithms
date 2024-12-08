@@ -42,10 +42,11 @@ The superior performance of the model with `hidden_units = 32` for all evaluatio
 complexity and generalization for the dataset. This outcome likely stems from the simplicity or sparsity of the dataset, where larger embeddings might introduce unnecessary complexity, leading to overfitting. 
 
 ### Comparison
+Below are two visualizations, each corresponding to one of the evaluation metrics used in our analysis to compare the performance of the two models. The first plot corresponds to HR@10, while the second corresponds to NDCG@10.
 <p align='center'>
 	<img src= ./assets/hr_compare.png width=50%/><img src= ./assets/ndcg_compare.png width=50%/>
 </p>
-
+We observed that the SASRec model performs better in both metrics since it works better for sparse datasets, better generalizes to unseen data, and captures both short-term and long-term dependencies, while the FPMC model only captures the short-term dependencies.
 
 
 
