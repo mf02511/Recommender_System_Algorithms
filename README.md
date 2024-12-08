@@ -27,7 +27,11 @@
 ## Results
 
 ### FPMC Model Results
-...
+The performance of the three SASRec models with hidden dimensions $d=32,64,128$ are shown: 
+<p align='center'>
+	<img src= ./assets/FPMC_results.png />
+</p>
+We found that the FPMC model has the best performance when the hidden dimension is $64$. Since the Personalized Markov Chain for Sets approach utilized extremely sparse transition matrices, an overly complicated model may lead to over-fitting to the training data, resulting in worse performance.
 
 ### SASRec Model Results
 The performance of the three SASRec models with hidden dimensions $d=32,64,128$ are shown: 
