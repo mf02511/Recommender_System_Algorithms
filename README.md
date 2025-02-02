@@ -2,6 +2,7 @@
 
 ### Course: DSC 210: Numerical Linear Algebra
 ### Instructor: Dr. Tsui-wei Wang
+### Report: https://drive.google.com/file/d/1Wh6nUUQxKX9PvToT639vkG1v3TBEwNme/view?usp=sharing 
 
 ## Instructions:
 
